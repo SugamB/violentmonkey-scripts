@@ -10,6 +10,7 @@
 
 (function() {
     // Delay the execution to allow the page to load completely
+    // update this with mutation observer
     setTimeout(() => {
         // Create a div for the filter controls
         const filterDiv = document.createElement('div');
